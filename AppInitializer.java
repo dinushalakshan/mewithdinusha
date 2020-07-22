@@ -3,7 +3,8 @@ public class AppInitializer{
         Student s1 = new Student(1,"Appu");
         System.out.println(s1);
         for(int i=0 ;i<5; i++){
-            System.out.println("Dinusha");
+            Student s2 = new Student(1,"Dinusha");
+            System.out.println(s2);
 
         }
         
